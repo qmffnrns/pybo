@@ -18,7 +18,7 @@
                 {{question.voter.count}}
             </div>
             <a href="#" data-url="{% url 'pybo:vote_question' question.id %}"
-               class="recommend btn btn-sm btn-secondary btn-block my-1">추천</a>
+               class="recommend btn btn-sm btn-secondary btn-block my-1 " style="background-color:blue">추천</a>
         </div>
         <div class="col-11">
             <!--기존 내용-->
@@ -93,7 +93,7 @@
                 {{answer.voter.count}}
             </div>
             <a href="#" data-url="{% url 'pybo:vote_answer' answer.id %}"
-               class="recommend btn btn-sm btn-secondary btn-block my-1">추천</a>
+               class="recommend btn btn-sm btn-secondary btn-block my-1" style="background-color : blue">추천</a>
         </div>
         <div class="col-11">
              <!--기존 내용-->
